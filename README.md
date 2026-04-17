@@ -7,7 +7,7 @@ Utility to rotate css-theme of my webblog either via cron-job or via github-acti
 Install as submodule in you github-pages-blog and move the workflow-file to `.github/workflows` to activate it.
 
 ```sh
-git submodule add <path> css-rotator
+git submodule add https://github.com/protogia/css-rotator.git css-rotator css-rotator
 cp css-rotator/workflow/weekly-rotation.yml .github/workflows/
 ```
 
