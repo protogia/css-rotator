@@ -19,7 +19,7 @@ CSS_VAR_PATH: "../themes/your-theme/path/to/variables.css" # CHANGE
 # ...
 ```
 
-# How to use
+## How to use
 
 In your `style.css` import the variables.css via `@import "path/to/variables.css";`
 Now you can to use the variables defined in variables.css as attributes in your style css.
