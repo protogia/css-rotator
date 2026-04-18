@@ -13,9 +13,9 @@ cp css-rotator/workflow/weekly-rotation.yml .github/workflows/
 
 In `.github/workflows/weekly-rotation.yml` change the env-var for the path to the variables.css.
 
-```
+```sh
 # ...
-CSS_VAR_PATH: "../themes/your-theme/path/to/variables.css" # CHANGE 
+CSS_VAR_PATH: "../path/to/variables.css" # Adjust this to you needs
 # ...
 ```
 
